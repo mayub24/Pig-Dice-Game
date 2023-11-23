@@ -71,8 +71,8 @@ function myFunction() {
         let randomDice2 = document.querySelector(`.dice2`);
         randomDice.style.display = 'block'; // Displaying the dice after button is clicked.
         randomDice2.style.display = 'block';
-        randomDice.src = `dice-${dice}.png`; // Since dice prints number from 1-6, we implement it inside an img src to print different values each time.
-        randomDice2.src = `dice-${dice2}.png`;
+        randomDice.src = `./images/dice-${dice}.png`; // Since dice prints number from 1-6, we implement it inside an img src to print different values each time.
+        randomDice2.src = `./images/dice-${dice2}.png`;
 
         //3. Update the round score (only if the rolled number was > 1)
         //dice !== 1 ? 
